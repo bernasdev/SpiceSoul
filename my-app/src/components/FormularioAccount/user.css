@@ -1,0 +1,114 @@
+.bgspicesoul {
+    background: url('/imagensProjeto/userbg.png') center center / cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fde2b8cf;
+    padding: 20px;
+    width: 100%;
+    margin: 20px auto; 
+    border-radius: 12px; 
+}
+
+.formLogin {
+  position: relative;
+  margin-left: 0;
+  width: 100%;
+}
+
+.input-box-login {
+  padding: 4px 0;
+  border: none;
+  border-bottom: solid #b64f0d;
+  color: #b64f0d;
+  width: 100%;
+  background-color: transparent;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  margin-bottom: 4%;
+}
+
+.input-box-login::placeholder {
+  color: #756346;
+}
+
+.input-box-login:focus + .underline {
+  width: 100%;
+}
+
+.pratos-girando {
+    max-width: 80%;
+    animation: girar 20s infinite linear;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg) scale(1.4);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.4);
+    }
+}
+
+.brown {
+    color: #6b4a19;
+    font-size: 24px;
+}
+
+.input-box::placeholder {
+    color: #6b4a19;
+}
+.input-box {
+    margin-bottom: 12px;
+}
+
+.divContainerLogin {
+    margin: 8%;
+}
+
+.accountbtn {
+    background: url('/imagensProjeto/pilar-verde.png') center center / contain no-repeat;
+    background-color: transparent;
+    border: none;
+    color: #ddbf91;
+    padding: 18px;
+    transition: 0.2s;
+}
+.accountbtn:hover {
+    scale: 1.1;
+}
+.accountlink {
+    color: #6b4a19;
+    transition: 0.2s;
+}
+.accountlink:hover {
+    filter: brightness(0.9);
+}
+
+.container-child#login{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-child#cadastro{
+    display: flex;
+    flex-direction: row;
+}
+
+.paddingLogin {
+    padding: 5% 2% 2% 2%;
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        margin: 10px;
+    }
+    .container-child#login,
+    .container-child#cadastro {
+        flex-direction: column;
+    }
+}

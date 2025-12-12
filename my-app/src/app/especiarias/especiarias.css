@@ -1,0 +1,28 @@
+.categoria-botao {
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-bottom: 3px solid transparent;
+  color: #8b2e00;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.categoria-botao:hover {
+  opacity: 0.8;
+}
+
+.categoria-botao.ativo {
+  color: #357b00;
+  border-color: #357b00;
+  font-weight: bold;
+}
+
+.buscaCor h2 {
+  color: #357b00;
+}
+
+p.text-center.color {
+  color: #a40000 !important;
+}

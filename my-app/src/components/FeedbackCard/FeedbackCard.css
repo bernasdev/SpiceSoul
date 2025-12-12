@@ -1,0 +1,63 @@
+.feedbackCard {
+    width: min(90%, 500px);
+    border-radius: 12px;
+    padding: 2rem 1.5rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feedbackBorderWrapper {
+    position: relative;
+    width: clamp(200px, 40%, 250px); 
+    aspect-ratio: 1 / 1;
+    margin-bottom: 1rem;
+}
+
+.feedbackBorderWrapper::before {
+    content: "";
+    position: absolute;
+    inset: -15%; 
+    background-image: url('/imagensProjeto/feedbackborder.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+
+.feedbackImageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.feedbackImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feedbackName {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: bold;
+    color: #6b4a19;
+    margin: 0;
+}
+
+.feedbackLine {
+    width: 80%;
+    border-top: 2px solid #b64f0d;
+}
+
+.feedbackText {
+    font-style: italic;
+    color: #6b4a19;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    line-height: 1.5;
+    max-width: 90%;
+}

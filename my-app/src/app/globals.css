@@ -1,0 +1,42 @@
+/* importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Questrial&display=swap');
+
+/* estilização da fonte */
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* define configurações da página */
+* {
+  box-sizing: border-box;
+  padding-top: 0;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+}
+
+/* define configurações do body */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #EEC5A4;
+}
+
+@font-face {
+  font-family: Sego;
+  src: url('/sego/SEGO.ttf');
+}
+.sego{
+  font-family: Sego;
+}
+
+body {
+  background: url('/imagensProjeto/bg3.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+

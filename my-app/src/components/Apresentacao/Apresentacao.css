@@ -1,0 +1,33 @@
+.apresentacaoDiv {
+  background-image: url("/imagensProjeto/bg1.png");
+  background-size: cover;
+  position: relative;
+  min-width: 100%;
+  height: 120%;
+  padding: 1.25rem;
+}
+
+.textoDiv {
+  text-align: center;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.spiceTitulo h1 {
+  margin-bottom: 3%;
+  color: #a40000;
+}
+
+.descricaoDiv p {
+  color: #6b4a19;
+  font-weight: 100;
+}
+
+.imgFlor {
+  width: 10%;
+}
+
+.sego {
+  font-family: Sego;
+}
+

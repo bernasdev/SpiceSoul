@@ -1,0 +1,18 @@
+iframe {
+    height: 300 !important;
+    width: 100%;
+}
+
+.divLoading {
+    text-align: center;
+    margin: 5%;
+}
+
+h3.sego{
+    color: #B75212;
+    margin-top: -8% !important;
+}
+
+.loading{
+    width: 40%;
+}

@@ -1,0 +1,67 @@
+.divContato {
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+.titulo-contato {
+  color: #a40000;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.texto-contato {
+  color: #6b4a19;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #a40000;
+  border-radius: 0;
+  background-color: transparent;
+  color: #6b4a19;
+  transition: .3s;
+}
+textarea.custom-input{
+    border: 2px solid #a40000;
+}
+
+.custom-input:focus {
+  box-shadow: none;
+  border-color: #a40000;
+  background-color: #00000000;
+}
+
+.btn-vermelho{
+    background-color: #a40000;
+    border: none;
+    color: bisque;
+    width: 100%;
+}
+
+.btn-vermelho:hover{
+    background-color: #4E6A0E;
+    transition: 0.5s;
+    color: bisque;
+}
+
+.form-label{
+    color: #6b4a19;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover, 
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  box-shadow: 0 0 0px 1000px transparent inset !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  transition: background-color 5000s ease-in-out 0s;
+}

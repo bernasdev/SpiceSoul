@@ -1,0 +1,131 @@
+.marrom {
+    background-color: #6B4A19;
+    color: #ddbf91;
+    font-size: 18px;
+    padding: 4px;
+}
+
+.gradiente {
+    background: linear-gradient(0deg, #B86526, #C29E65);
+}
+
+.links {
+    max-width: 400px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #4c690d;
+    font-size: 42px;
+    transition: .2s;
+}
+
+.links a:hover {
+    filter: brightness(0.9);
+    scale: 1.1;
+}
+
+.bi-geo-alt::before {
+    scale: 1.2;
+}
+
+.links-site a {
+    color: #D4B98E;
+    text-decoration: none;
+    font-size: 120%;
+    border: none;
+    background: none;
+    font-weight: 100;
+}
+
+.links-site a:hover {
+    transition: 0.5s;
+    color: #6B4A19 !important;
+}
+
+.links-site a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #b64f0d;
+    display: block;
+    transition: 0.5s;
+    margin-top: 2px;
+}
+
+.links-site a:hover::after {
+    width: 100%;
+  }
+
+.itensDiv {
+    font-weight: 100 !important;
+}
+
+.trans {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    color: #493312 !important;
+    margin: 0 !important;
+}
+
+.trans::placeholder {
+    color: #6b4a19 !important;
+}
+
+.botao-marrom {
+    color: #493312;
+    border: none;
+    font-size: 22px;
+}
+
+.botao-marrom:hover,
+.botao-marrom:focus,
+.botao-marrom:active,
+.botao-marrom:target {
+    background-color: #493312 !important;
+}
+
+.botao-marrom:hover i,
+.botao-marrom:focus i,
+.botao-marrom:active i,
+.botao-marrom:target i{
+    color: #fff;
+}
+.pai-elefante{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.elefante{
+    width: 80%;
+}
+.bg-texture{
+    position: relative;
+    z-index: 2;
+    background-size: contain;
+    background-image: url("/imagensProjeto/bg3.png");
+}
+.castelo{
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg,#b64f0d,#b64e0d00,#b64e0d00);
+}
+
+.tituloRodape {
+    color: #A40000;
+    text-align: center;
+}
+
+.especiariasImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.divInfos {
+    min-width: 400px;
+    justify-content: center !important;
+    padding: 15% !important;
+}

@@ -1,0 +1,160 @@
+body {
+    overflow: hidden;
+}
+
+/* GERAL */
+.navbar {
+    /* position: fixed; */
+    background-color: #4c690d00;
+}
+
+/* LINKS DO MENU */
+.navbar-nav,
+.nav-link,
+.bi,
+.imgLogo {
+    transition: 0.3s ease;
+}
+
+.nav-link.active {
+    color: #C7BAA7;
+}
+
+.nav-link.nav-home:focus {
+    color: #C7BAA7;
+}
+
+.nav-link.nav-sobre:focus {
+    color: #C7BAA7;
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.7;
+}
+
+.paddingLinkLogo {
+    margin-left: 20%;
+}
+
+.colorItemLogin li a {
+    color: #C7BAA7;
+}
+
+.imgLogoLogin {
+    width: 70% !important;
+    margin: 15 0 15 0%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogin {
+    justify-content: space-between;
+}
+
+.imgLogo:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
+ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #b64f0d;
+    display: block;
+    transition: 0.5s;
+    margin-top: 2px;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+ul li a:hover {
+    transition: 0.5s;
+    color: #dc7738 !important;
+}
+
+.active::after {
+    width: 100%;
+    color: #b64f0d;
+}
+
+.active {
+    color: #b64f0d !important;
+}
+
+.input-wrapper {
+    width: 100%;
+}
+
+.itensNavLogin {
+    display: flex;
+    margin-right: 2% !important;
+}
+
+::-webkit-input-placeholder {
+    color: #694A1E;
+}
+
+nav.navbar {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    width: 100% !important;
+}
+
+.nav input-box::placeholder {
+    color: #694A1E !important;
+
+}
+
+.botaoBusca {
+    background: none !important;
+    border: none !important;
+    margin-right: 10%;
+}
+
+.nav-item {
+    transition: .5s;
+}
+
+button.navbar-toggler {
+    background-color: #BD6325;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 992px) {
+    nav {
+        border-radius: 12px;
+    }
+
+    .navbar-collapse {
+        padding: 2rem;
+    }
+
+    .conta-carrinho {
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .textoDiv {
+        margin-top: 5rem !important;
+    }
+}

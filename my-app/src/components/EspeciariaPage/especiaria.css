@@ -1,0 +1,63 @@
+.nomeCientifico {
+    font-style: italic;
+    font-size: 150%;
+}
+
+.comprar {
+    background-color: #C95400;
+    border: none;
+    transition: .3s;
+    color: bisque;
+}
+
+.comprar:hover {
+    background-color: #a64700;
+    transform: scale(1.03);
+    color: bisque;
+}
+
+.comprar:active,
+.comprar:focus,
+.comprar:target {
+    background-color: #994100 !important;
+    transform: scale(0.97);
+}
+
+@media (max-width: 575.98px) {
+    .action-grid {
+        width: 100% !important;
+    }
+}
+
+h1.title {
+    color: #a40000 !important;
+    margin-bottom: 5% !important;
+    font-size: 4rem;
+}
+
+.divInfosProduto p {
+    color: #994100;
+}
+
+.divInfosProduto ul {
+    color: #994100;
+}
+
+.destaqueCor {
+    color: #4C690D !important;
+    font-weight: bold;
+}
+
+.aviso {
+    color: #a40000 !important;
+    font-size: 4rem;
+}
+.voltar{
+    color: #C95400;
+    transition: .2s;
+}
+.voltar:hover,
+.voltar:focus,
+.voltar:active {
+    color: #994100;
+}

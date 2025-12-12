@@ -1,0 +1,29 @@
+
+.not-found {
+  background: url('/imagensProjeto/userbg.png');
+  background-position: center center;
+  background-size: 100%;
+}
+
+.not-found .container-404 {
+  backdrop-filter: brightness(40%);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8eccc;
+}
+
+.titlenotfound{
+  font-size: 48px;
+}
+
+.linkhome{
+  color: #f8eccc;
+  transition: .2;
+}
+
+.linkhome:hover{
+  color: #f8eccc;
+}

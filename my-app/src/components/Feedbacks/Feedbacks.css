@@ -1,0 +1,38 @@
+.feedbacksBanner {
+  width: 100%;
+  padding: 5rem 0 0 0;
+}
+
+.bannerMobile {
+  display: flex;
+  width: 100%;
+}
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+    color: #a40000;
+}
+
+@media (min-width: 768px) {
+  .bannerMobile {
+    display: none;
+  }
+  .bannerDesktop {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerDesktop {
+    display: none;
+  }
+}
+
+.padding {
+  padding: 0% 5% 0% 5%;
+}
+
+.swiper {
+  padding: 5%;
+}

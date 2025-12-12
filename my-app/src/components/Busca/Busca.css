@@ -1,0 +1,47 @@
+.formularioBusca {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #b64f0d;
+  
+}
+
+.botaoBusca {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botaoBusca:hover .iconeBusca {
+  opacity: 0.5;
+}
+
+.iconeBusca{
+  font-size: 25px;
+  color: #6b4a19 !important;
+  transition: .3s;
+}
+
+.campoBusca {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #6b4a19;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.campoBusca::placeholder {
+  color: #6b4a19;
+}
+
+.campoBusca:focus{
+  outline: none;
+  box-shadow: none;
+}

@@ -1,0 +1,44 @@
+.produto {
+  background: linear-gradient(to bottom, #f8f2e03a, #f6e8cb38);
+  transition: .2s;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.produto:hover {
+  transform: translateY(-10px);
+  scale: 1.06;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.card-body p {
+  font-size: 120%;
+  color: #A40000;
+  margin-bottom: 0px;
+}
+
+.botao-card {
+  background-color: #4c690d;
+  border: none;
+  color: #ddbf91;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.botao-card:hover {
+  background-color: #c1934e;
+  color: #4c690d;
+}
