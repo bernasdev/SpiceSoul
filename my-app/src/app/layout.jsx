@@ -9,16 +9,21 @@ import Footer from "@/components/Footer/Footer";
 import LoginHeader from "@/components/LoginHeader/LoginHeader";
 import Header from "@/components/Header/Header";
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
- 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+import { DM_Serif_Display, Questrial } from 'next/font/google';
+
+export const dmSerif = DM_Serif_Display({
+  weight: ['400'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
 });
- 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+
+export const questrial = Questrial({
+  weight: ['400'],
+  subsets: ['latin'],
 });
+
+
  
 export default function RootLayout({ children }) {
   const pathName = usePathname();
@@ -29,12 +34,13 @@ export default function RootLayout({ children }) {
  
   const userLayout = pathName === '/conta/login' || pathName === '/conta/cadastro' || is404;
   return (
-    <html lang="pt-BR" suppressHydrationWarning={true}>
+    <html lang="pt-BR" suppressHydrationWarning={true} className={`${dmSerif.className} ${questrial.className}`}>
+     
       <head>
         <title>Spice & Soul</title>
         <link rel="icon" href=" /imagensProjeto/elefante.png" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning >
+      <body className={`${dmSerif.className} ${questrial.className}`} suppressHydrationWarning >
         {userLayout ? <LoginHeader></LoginHeader> : <Header></Header>}
         {children}
         <ScrollToTop></ScrollToTop>
