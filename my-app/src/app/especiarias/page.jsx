@@ -7,7 +7,8 @@ import Produto from "@/components/Produto/Produto";
 import Loading from "../loading"; 
 import "./especiarias.css"
 
-const API_URL = "http://localhost:3001";
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://spicesoul-production.up.railway.app";
 
 export default function SearchPage() {
     const searchParams = useSearchParams();

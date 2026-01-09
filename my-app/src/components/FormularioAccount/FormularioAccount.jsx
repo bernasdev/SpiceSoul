@@ -5,7 +5,8 @@ import Link from "next/link";
 const axios = require('axios');
 import "./user.css";
 
-const API_URL = 'http://localhost:3001';
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://spicesoul-production.up.railway.app";
 
 export default function account({ action }) {
 

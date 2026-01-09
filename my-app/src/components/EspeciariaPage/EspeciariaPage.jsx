@@ -6,7 +6,9 @@ import Produto from "@/components/Produto/Produto";
 import Link from "next/link";
 import "./especiaria.css";
 
-const API_URL = "http://localhost:3001";
+
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://spicesoul-production.up.railway.app";
 
 export default function EspeciariaPage({ id }) {
   const [especiaria, setEspeciaria] = useState(null);

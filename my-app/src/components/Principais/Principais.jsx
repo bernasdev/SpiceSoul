@@ -13,7 +13,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const API_URL = 'http://localhost:3001';
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://spicesoul-production.up.railway.app";
 
 export default function Principais() {
     const [especiarias, setEspeciarias] = useState([]);
