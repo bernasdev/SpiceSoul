@@ -80,9 +80,9 @@ Este é um projeto de estudo. Sinta-se à vontade para sugerir melhorias, especi
 
 ## 🔗 Links
 
-* Live Preview: [spicesoul.vercel.app](spicesoul.vercel.app)
+* Live Preview: [spicesoul.vercel.app](https://spicesoul.vercel.app)
 
-* Repositório: [github.com/bernasdev/SpiceSoul](github.com/bernasdev/SpiceSoul)
+* Repositório: [github.com/bernasdev/SpiceSoul](https://github.com/bernasdev/SpiceSoul)
 
 ---
 
