@@ -78,4 +78,12 @@ Este é um projeto de estudo. Sinta-se à vontade para sugerir melhorias, especi
 
 ---
 
+## 🔗 Links
+
+* Live Preview: [spicesoul.vercel.app](spicesoul.vercel.app)
+
+* Repositório: [github.com/bernasdev/SpiceSoul](github.com/bernasdev/SpiceSoul)
+
+---
+
 Desenvolvido por [BernasDev](https://github.com/bernasdev)
