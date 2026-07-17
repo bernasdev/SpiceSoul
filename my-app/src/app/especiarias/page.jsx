@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import axios from "axios";
 import Produto from "@/components/Produto/Produto";
 import Loading from "../loading"; 
 import "./especiarias.css"
 
-// const API_URL = "http://localhost:3001";
-const API_URL = "https://spicesoul-production.up.railway.app";
+const API_URL = "/api";
 
 export default function SearchPage() {
     const searchParams = useSearchParams();
@@ -26,10 +26,7 @@ export default function SearchPage() {
     useEffect(() => {
         async function fetchEspeciarias() {
             try {
-                setIsLoading(true); // inicia o loading
-
-                // simula um delay mínimo de 3s mesmo se a API for rápida
-                await new Promise(resolve => setTimeout(resolve, 3000)); 
+                setIsLoading(true);
 
                 const response = await axios.get(`${API_URL}/especiarias`);
                 setEspeciarias(response.data);
@@ -80,19 +77,23 @@ export default function SearchPage() {
         <div className="container pt-5 d-flex mx-auto my-5 flex-column buscaCor">
             {searchValue ? (
                 <div className="d-flex flex-column justify-content-center align-items-center">
-                    <img
+                    <Image
                         src="/imagensProjeto/bannerPesquisa.png"
                         alt="BannerProdutos"
                         className="img-fluid w-75 pt-5"
+                        width={800}
+                        height={400}
                     />
                     <h2 className="text-center">Resultados para "{searchValue}":</h2>
                 </div>
             ) : (
                 <div className="d-flex flex-column justify-content-center align-items-center">
-                    <img
+                    <Image
                         src="/imagensProjeto/produtosbanner.png"
                         alt="BannerProdutos"
                         className="img-fluid w-75 pt-5"
+                        width={800}
+                        height={400}
                     />
                     <div className="categorias-container d-flex justify-content-center gap-5 flex-wrap pb-4">
                         {categorias.map((cat, index) => (

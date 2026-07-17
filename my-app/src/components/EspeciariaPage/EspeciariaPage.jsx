@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Produto from "@/components/Produto/Produto";
 import Link from "next/link";
+import Loading from "@/app/loading";
 import "./especiaria.css";
 
 
-// const API_URL = "http://localhost:3001";
-const API_URL = "https://spicesoul-production.up.railway.app";
+const API_URL = "/api";
 
 export default function EspeciariaPage({ id }) {
   const [especiaria, setEspeciaria] = useState(null);
@@ -84,7 +84,7 @@ export default function EspeciariaPage({ id }) {
   }
 
   // Enquanto carrega ou não há dados
-  if (!especiaria) return null;
+  if (!especiaria) return <Loading />;
 
   return (
     <div className="container mx-auto my-5 pt-5">
@@ -106,6 +106,8 @@ export default function EspeciariaPage({ id }) {
                     src={`${img}.png`}
                     className="d-block w-100 img-fluid rounded-1 zoom"
                     alt={`Imagem ${index + 1} de ${especiaria.nome}`}
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               ))}

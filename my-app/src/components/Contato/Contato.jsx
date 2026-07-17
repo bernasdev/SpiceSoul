@@ -19,7 +19,7 @@ export default function Contato() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://https://spicesoul-production.up.railway.app/contato", formData);
+      await axios.post("/api/contato", formData);
       alert("Mensagem enviada com sucesso!");
       setFormData({ nome: "", email: "", motivo: "", mensagem: "" });
     } catch (err) {

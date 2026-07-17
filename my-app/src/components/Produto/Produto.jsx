@@ -6,7 +6,7 @@ export default function Produto({ item }) {
         <>
             <Link href={`/especiarias/${item.id}`} style={{textDecoration: 'none', display: 'flex'}}  >
                 <div className="card produto" style={{ maxWidth: "18rem" }} >
-                    <img src={`${item.imagens[0]}.png`} className="card-img-top" alt={item.nome} />
+                    <img src={`${item.imagens[0]}.png`} className="card-img-top" alt={item.nome} loading="lazy" decoding="async" />
                     <div className="card-body">
                         <p className="card-text text-center">
                             {item.nome}
