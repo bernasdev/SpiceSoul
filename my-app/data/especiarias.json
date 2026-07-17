@@ -1,0 +1,633 @@
+[
+  {
+    "id": 1,
+    "nome": "Canela em pó",
+    "nomeCientifico": "Cinnamomum verum",
+    "origem": "Sri Lanka",
+    "descricao": "Versão em pó da canela, muito usada em sobremesas e massas.",
+    "preco": 9.2,
+    "quantidade": "50g",
+    "pratos": [
+      "Bolos",
+      "Tortas",
+      "Cafés"
+    ],
+    "categoria": "Doce",
+    "beneficios": [
+      "Ajuda na digestão",
+      "Anti-inflamatório"
+    ],
+    "imagens": [
+      "/especiarias/1-canelaempo1",
+      "/especiarias/2-canelaempo2",
+      "/especiarias/3-canelaempo3"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Canela em pau",
+    "nomeCientifico": "Cinnamomum verum",
+    "origem": "Sri Lanka",
+    "descricao": "Casca seca do tronco da caneleira, usada para aromatizar pratos e bebidas.",
+    "preco": 10.5,
+    "quantidade": "50g",
+    "pratos": [
+      "Chás",
+      "Doces",
+      "Ensopados"
+    ],
+    "categoria": "Doce",
+    "beneficios": [
+      "Melhora a circulação",
+      "Ação antioxidante"
+    ],
+    "imagens": [
+      "/especiarias/4-canelaempau1",
+      "/especiarias/5-canelaempau2",
+      "/especiarias/6-canelaempau3"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Cravo-da-índia",
+    "nomeCientifico": "Syzygium aromaticum",
+    "origem": "Indonésia",
+    "descricao": "Botões secos da flor, muito aromáticos, usados em doces e conservas.",
+    "preco": 8.3,
+    "quantidade": "50g",
+    "pratos": [
+      "Doces",
+      "Carnes",
+      "Conservas"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Analgésico",
+      "Melhora dores de garganta"
+    ],
+    "imagens": [
+      "/especiarias/7-cravo1",
+      "/especiarias/8-cravo2",
+      "/especiarias/9-cravo3"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Noz-moscada",
+    "nomeCientifico": "Myristica fragrans",
+    "origem": "Indonésia",
+    "descricao": "Semente aromática ralada na hora para dar sabor a pratos doces e salgados.",
+    "preco": 11.0,
+    "quantidade": "30g",
+    "pratos": [
+      "Molhos",
+      "Purês",
+      "Bolos"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Melhora o humor",
+      "Ajuda a dormir"
+    ],
+    "imagens": [
+      "/especiarias/10-nozmoscada1",
+      "/especiarias/11-nozmoscada2",
+      "/especiarias/12-nozmoscada3"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Pimenta-do-reino preta",
+    "nomeCientifico": "Piper nigrum",
+    "origem": "Índia",
+    "descricao": "Variedade mais picante e comum da pimenta-do-reino.",
+    "preco": 6.5,
+    "quantidade": "50g",
+    "pratos": [
+      "Carnes",
+      "Massas",
+      "Sopas"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Estimula a digestão",
+      "Termogênico"
+    ],
+    "imagens": [
+      "/especiarias/13-pimentadoreino1",
+      "/especiarias/14-pimentadoreino2",
+      "/especiarias/15-pimentadoreino3"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Pimenta-do-reino branca",
+    "nomeCientifico": "Piper nigrum",
+    "origem": "Índia",
+    "descricao": "Mais suave e usada em pratos de cor clara.",
+    "preco": 7.0,
+    "quantidade": "50g",
+    "pratos": [
+      "Molhos brancos",
+      "Peixes",
+      "Sopas"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Antioxidante",
+      "Melhora a digestão"
+    ],
+    "imagens": [
+      "/especiarias/16-pimentadoreinobranca1",
+      "/especiarias/17-pimentadoreinobranca2",
+      "/especiarias/18-pimentadoreinobranca3"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Pimenta-do-reino verde",
+    "nomeCientifico": "Piper nigrum",
+    "origem": "Índia",
+    "descricao": "Mais fresca e menos picante, usada em pratos refinados.",
+    "preco": 8.0,
+    "quantidade": "50g",
+    "pratos": [
+      "Molhos",
+      "Carnes",
+      "Patês"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Rica em antioxidantes",
+      "Auxilia na digestão"
+    ],
+    "imagens": [
+      "/especiarias/19-pimentadoreinoverde1",
+      "/especiarias/20-pimentadoreinoverde2",
+      "/especiarias/21-pimentadoreinoverde3"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Cominho em pó",
+    "nomeCientifico": "Cuminum cyminum",
+    "origem": "Oriente Médio",
+    "descricao": "Pó das sementes de cominho, muito usado em pratos latinos e indianos.",
+    "preco": 5.9,
+    "quantidade": "50g",
+    "pratos": [
+      "Feijão",
+      "Curries",
+      "Ensopados"
+    ],
+    "categoria": "Terrosa",
+    "beneficios": [
+      "Anti-inflamatório",
+      "Melhora a digestão"
+    ],
+    "imagens": [
+      "/especiarias/22-cominhoempo1",
+      "/especiarias/23-cominhoempo2",
+      "/especiarias/24-cominhoempo3"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Cúrcuma (Açafrão-da-terra)",
+    "nomeCientifico": "Curcuma longa",
+    "origem": "Índia",
+    "descricao": "Raiz seca e moída, muito usada em pratos asiáticos e na medicina tradicional.",
+    "preco": 6.2,
+    "quantidade": "50g",
+    "pratos": [
+      "Arroz",
+      "Curries",
+      "Carnes"
+    ],
+    "categoria": "Terrosa",
+    "beneficios": [
+      "Anti-inflamatória",
+      "Antioxidante",
+      "Melhora articulações"
+    ],
+    "imagens": [
+      "/especiarias/25-curcumaempo1",
+      "/especiarias/26-curcumaempo2",
+      "/especiarias/27-curcumaempo3"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Gengibre seco em pó",
+    "nomeCientifico": "Zingiber officinale",
+    "origem": "China",
+    "descricao": "Raiz seca e moída, usada para aromatizar doces e chás.",
+    "preco": 7.9,
+    "quantidade": "50g",
+    "pratos": [
+      "Chás",
+      "Bolos",
+      "Curries"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Ajuda na digestão",
+      "Anti-inflamatório",
+      "Alivia náuseas"
+    ],
+    "imagens": [
+      "/especiarias/28-gengibresecoempo1",
+      "/especiarias/29-gengibresecoempo2",
+      "/especiarias/30-gengibresecoempo3"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Alho em pó",
+    "nomeCientifico": "Allium sativum",
+    "origem": "Ásia Central",
+    "descricao": "Versão desidratada e moída do alho, prática para temperar.",
+    "preco": 5.80,
+    "quantidade": "50g",
+    "pratos": [
+      "Carnes",
+      "Molhos",
+      "Massas"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Antibacteriano",
+      "Melhora o sistema imunológico"
+    ],
+    "imagens": [
+      "/especiarias/31-alhoempo1",
+      "/especiarias/32-alhoempo2",
+      "/especiarias/33-alhoempo3"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Cebola em pó",
+    "nomeCientifico": "Allium cepa",
+    "origem": "Ásia",
+    "descricao": "Cebola desidratada e moída, usada como base para temperos secos.",
+    "preco": 5.50,
+    "quantidade": "50g",
+    "pratos": [
+      "Sopas",
+      "Arroz",
+      "Molhos"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Antioxidante",
+      "Anti-inflamatório"
+    ],
+    "imagens": [
+      "/especiarias/34-cebolaempo1",
+      "/especiarias/35-cebolaempo2",
+      "/especiarias/36-cebolaempo3"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Páprica doce",
+    "nomeCientifico": "Capsicum annuum",
+    "origem": "Hungria",
+    "descricao": "Feita a partir de pimentões secos e moídos, com sabor suave.",
+    "preco": 7.20,
+    "quantidade": "50g",
+    "pratos": [
+      "Carnes",
+      "Legumes",
+      "Arroz"
+    ],
+    "categoria": "Doce",
+    "beneficios": [
+      "Fonte de vitamina A",
+      "Antioxidante"
+    ],
+    "imagens": [
+      "/especiarias/37-papricadoce1",
+      "/especiarias/38-papricadoce2",
+      "/especiarias/39-papricadoce3"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Páprica picante",
+    "nomeCientifico": "Capsicum annuum",
+    "origem": "Hungria",
+    "descricao": "Versão com mais ardência da páprica tradicional.",
+    "preco": 7.50,
+    "quantidade": "50g",
+    "pratos": [
+      "Carnes grelhadas",
+      "Ensopados",
+      "Feijoadas"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Acelera o metabolismo",
+      "Estimulante"
+    ],
+    "imagens": [
+      "/especiarias/40-papricapicante1",
+      "/especiarias/41-papricapicante2",
+      "/especiarias/42-papricapicante3"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Páprica defumada",
+    "nomeCientifico": "Capsicum annuum",
+    "origem": "Espanha",
+    "descricao": "Páprica defumada ao ar quente, traz sabor profundo e esfumaçado.",
+    "preco": 8.00,
+    "quantidade": "50g",
+    "pratos": [
+      "Paella",
+      "Batatas",
+      "Vegetais assados"
+    ],
+    "categoria": "Defumada",
+    "beneficios": [
+      "Fonte de antioxidantes",
+      "Realça sabores"
+    ],
+    "imagens": [
+      "/especiarias/43-papricadefumada1",
+      "/especiarias/44-papricadefumada2",
+      "/especiarias/45-papricadefumada3"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Pimenta caiena",
+    "nomeCientifico": "Capsicum frutescens",
+    "origem": "América Central",
+    "descricao": "Pimenta em pó bastante picante, usada com moderação.",
+    "preco": 6.90,
+    "quantidade": "50g",
+    "pratos": [
+      "Pratos apimentados",
+      "Molhos",
+      "Sopas"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Termogênica",
+      "Melhora a circulação"
+    ],
+    "imagens": [
+      "/especiarias/46-pimentacaiena1",
+      "/especiarias/47-pimentacaiena2",
+      "/especiarias/48-pimentacaiena3"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Pimenta calabresa",
+    "nomeCientifico": "Capsicum annuum",
+    "origem": "Itália",
+    "descricao": "Flocos de pimenta seca, usada para dar ardência e visual aos pratos.",
+    "preco": 6.00,
+    "quantidade": "50g",
+    "pratos": [
+      "Pizzas",
+      "Massas",
+      "Carnes"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Estimula a digestão",
+      "Aumenta o metabolismo"
+    ],
+    "imagens": [
+      "/especiarias/49-pimentacalabresa1",
+      "/especiarias/50-pimentacalabresa2",
+      "/especiarias/51-pimentacalabresa3"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Curry",
+    "nomeCientifico": "",
+    "origem": "Índia",
+    "descricao": "Mistura de especiarias como cúrcuma, coentro, cominho e pimenta.",
+    "preco": 7.80,
+    "quantidade": "50g",
+    "pratos": [
+      "Frango ao curry",
+      "Arroz",
+      "Legumes"
+    ],
+    "categoria": "Misto",
+    "beneficios": [
+      "Antioxidante",
+      "Ajuda na digestão"
+    ],
+    "imagens": [
+      "/especiarias/52-curry1",
+      "/especiarias/53-curry2",
+      "/especiarias/54-curry3"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Mostarda em pó",
+    "nomeCientifico": "Sinapis alba",
+    "origem": "Europa",
+    "descricao": "Sementes secas e moídas, de sabor pungente e picante.",
+    "preco": 5.70,
+    "quantidade": "50g",
+    "pratos": [
+      "Molhos",
+      "Carnes",
+      "Conservas"
+    ],
+    "categoria": "Picante",
+    "beneficios": [
+      "Digestiva",
+      "Estimulante"
+    ],
+    "imagens": [
+      "/especiarias/55-mostardaempo1",
+      "/especiarias/56-mostardaempo2",
+      "/especiarias/57-mostardaempo3"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Coentro em grãos",
+    "nomeCientifico": "Coriandrum sativum",
+    "origem": "Região Mediterrânea",
+    "descricao": "Sementes inteiras de coentro, usadas em marinadas e pães.",
+    "preco": 4.90,
+    "quantidade": "50g",
+    "pratos": [
+      "Pães",
+      "Conservas",
+      "Carne de porco"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Antioxidante",
+      "Ajuda no controle glicêmico"
+    ],
+    "imagens": [
+      "/especiarias/58-coentroemgraos1",
+      "/especiarias/59-coentroemgraos2",
+      "/especiarias/60-coentroemgraos3"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Coentro em pó",
+    "nomeCientifico": "Coriandrum sativum",
+    "origem": "Região Mediterrânea",
+    "descricao": "Versão moída das sementes, usada em curries e sopas.",
+    "preco": 5.10,
+    "quantidade": "50g",
+    "pratos": [
+      "Curries",
+      "Molhos",
+      "Peixes"
+    ],
+    "categoria": "Aromática",
+    "beneficios": [
+      "Ajuda na digestão",
+      "Rico em antioxidantes"
+    ],
+    "imagens": [
+      "/especiarias/61-coentroempo1",
+      "/especiarias/62-coentroempo2",
+      "/especiarias/63-coentroempo3"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Orégano",
+    "nomeCientifico": "Origanum vulgare",
+    "origem": "Mediterrâneo",
+    "descricao": "Erva aromática muito usada na culinária mediterrânea, com sabor marcante e levemente amargo.",
+    "preco": 4.50,
+    "quantidade": "25g",
+    "pratos": [
+      "Massas",
+      "Pizzas",
+      "Molhos de tomate",
+      "Saladas"
+    ],
+    "categoria": "Erva Seca",
+    "beneficios": [
+      "Antioxidante",
+      "Anti-inflamatório",
+      "Melhora da digestão"
+    ],
+    "imagens": [
+      "/especiarias/64-oregano1",
+      "/especiarias/65-oregano2",
+      "/especiarias/66-oregano3"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Hortelã",
+    "nomeCientifico": "Mentha spicata",
+    "origem": "Europa e Ásia",
+    "descricao": "Erva refrescante com sabor mentolado, usada tanto em pratos salgados quanto doces e bebidas.",
+    "preco": 3.80,
+    "quantidade": "20g",
+    "pratos": [
+      "Chás",
+      "Molhos",
+      "Tabule",
+      "Sobremesas"
+    ],
+    "categoria": "Erva Seca",
+    "beneficios": [
+      "Refrescante",
+      "Digestiva",
+      "Ajuda na respiração"
+    ],
+    "imagens": [
+      "/especiarias/67-hortela1",
+      "/especiarias/68-hortela2",
+      "/especiarias/69-hortela3"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Chimmi Churry",
+    "nomeCientifico": "Mistura de ervas e especiarias",
+    "origem": "Argentina",
+    "descricao": "Mistura tradicional argentina usada como tempero ou molho para carnes grelhadas.",
+    "preco": 6.90,
+    "quantidade": "40g",
+    "pratos": [
+      "Churrascos",
+      "Carnes",
+      "Pães"
+    ],
+    "categoria": "Misto",
+    "beneficios": [
+      "Rico em antioxidantes",
+      "Realça o sabor de carnes"
+    ],
+    "imagens": [
+      "/especiarias/70-chimmichurry1",
+      "/especiarias/71-chimmichurry2",
+      "/especiarias/72-chimmichurry3"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Lemon Pepper",
+    "nomeCientifico": "Mistura de limão e pimenta-do-reino",
+    "origem": "Estados Unidos",
+    "descricao": "Tempero seco feito com raspas de limão e pimenta-do-reino, ideal para aves e peixes.",
+    "preco": 7.20,
+    "quantidade": "35g",
+    "pratos": [
+      "Frango",
+      "Peixe",
+      "Saladas"
+    ],
+    "categoria": "Misto",
+    "beneficios": [
+      "Digestivo",
+      "Rico em vitamina C"
+    ],
+    "imagens": [
+      "/especiarias/73-lemonpepper1",
+      "/especiarias/74-lemonpepper2",
+      "/especiarias/75-lemonpepper3"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Salsinha",
+    "nomeCientifico": "Petroselinum crispum",
+    "origem": "Europa",
+    "descricao": "Erva muito usada para finalizar pratos, com sabor leve e refrescante.",
+    "preco": 3.00,
+    "quantidade": "20g",
+    "pratos": [
+      "Saladas",
+      "Sopas",
+      "Carnes",
+      "Molhos"
+    ],
+    "categoria": "Erva seca",
+    "beneficios": [
+      "Rico em vitaminas A e C",
+      "Ajuda na digestão"
+    ],
+    "imagens": [
+      "/especiarias/76-salsinha1",
+      "/especiarias/77-salsinha2",
+      "/especiarias/78-salsinha3"
+    ]
+  }
+]

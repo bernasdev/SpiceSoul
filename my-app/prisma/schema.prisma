@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id       Int     @id @default(autoincrement())
+  usuario  String
+  email    String  @unique
+  senha    String
+
+  @@map("usuarios")
+}
+
+model Especiaria {
+  id              Int      @id @default(autoincrement())
+  nome            String
+  nomeCientifico  String
+  origem          String
+  descricao       String
+  preco           Float
+  quantidade      String
+  pratos          String   // JSON stringified array
+  categoria       String
+  beneficios      String   // JSON stringified array
+  imagens         String   // JSON stringified array
+
+  @@map("especiarias")
+}
+
+model Contato {
+  id       Int      @id @default(autoincrement())
+  nome     String
+  email    String
+  motivo   String
+  mensagem String
+  data     DateTime
+
+  @@map("contatos")
+}
