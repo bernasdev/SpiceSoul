@@ -25,6 +25,10 @@ body {
   background-color: #EEC5A4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: Sego;
   src: url('/sego/SEGO.ttf');

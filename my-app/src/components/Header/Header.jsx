@@ -1,9 +1,29 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import Link from "next/link";
 import "./Header.css";
 import { usePathname } from "next/navigation";
+
+function scrollToReceitas() {
+  const el = document.getElementById('receitas');
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
+    window.history.replaceState(null, '', '/#receitas');
+    return true;
+  }
+  return false;
+}
+
+function closeNavbar() {
+  const btn = document.querySelector('.navbar-toggler');
+  const collapse = document.getElementById('navbarSupportedContent');
+  if (collapse?.classList.contains('show') && btn) {
+    btn.click();
+  }
+}
+
 export default function Header() {
     const [valorBuscado, setValorBuscado] = useState("");
     const router = useRouter();
@@ -16,6 +36,21 @@ export default function Header() {
         }
     };
     const pathName = usePathname();
+
+    const handleReceitasClick = (e) => {
+      e.preventDefault();
+      closeNavbar();
+
+      if (pathName === '/') {
+        scrollToReceitas();
+      } else {
+        router.push('/#receitas');
+        // Dynamic imports (Principais) podem causar layout shift depois do
+        // scroll inicial — re-posiciona após o conteudo estabilizar
+        setTimeout(() => scrollToReceitas(), 800);
+      }
+    };
+
     return (
         <nav className="navbar navbar-expand-lg navbarHome">
             <div className="container-fluid">
@@ -45,14 +80,14 @@ export default function Header() {
                                 <Link className={`nav-link nav-sobre ${pathName === '/sobre' ? 'active' : ''}`} href={'/sobre'}>Sobre nós</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link nav-receitas ${pathName === '/#receitas' ? 'active' : ''}`} href={"/#receitas"}>Receitas</Link>
+                                <Link className={`nav-link nav-receitas ${pathName === '/#receitas' ? 'active' : ''}`} href={"/#receitas"} onClick={handleReceitasClick}>Receitas</Link>
                             </li>
                         </ul>
                     </div>
 
                     <div className="col logoNav">
                         <div className="logo">
-                            <img className="img-fluid imgLogo d-none d-lg-flex" src="/imagensProjeto/logoSpice.png" alt="logo" />
+                            <Image className="img-fluid imgLogo d-none d-lg-flex" src="/imagensProjeto/logoSpice.png" alt="logo" width={150} height={150} />
                         </div>
                     </div>
 
@@ -78,7 +113,7 @@ export default function Header() {
                         </div>
                     </div>
                 </div>
-                <img className="img-fluid  d-flex d-lg-none" src="/imagensProjeto/logoSpice.png" width={70} alt="logo" />
+                <Image className="img-fluid d-flex d-lg-none" src="/imagensProjeto/logoSpice.png" width={70} height={70} alt="logo" />
             </div>
         </nav>
     );
