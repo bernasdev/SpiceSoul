@@ -35,6 +35,7 @@
 // }
 
 "use client"
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import "./loginheader.css"
 import Link from "next/link";
@@ -59,7 +60,7 @@ export default function LoginHeader() {
                     <div className="col-md-1 logoNavLogin">
                         <div className="logo">
 
-                            <Link className="paddingLinkLogo" href={'/'}> <img className="img-fluid imgLogoLogin d-none d-lg-flex" src="/imagensProjeto/elefante_bege.png" alt="logo" /> </Link>
+                            <Link className="paddingLinkLogo" href={'/'}> <Image className="img-fluid imgLogoLogin d-none d-lg-flex" src="/imagensProjeto/elefante_bege.png" alt="logo" width={120} height={120} /> </Link>
 
                         </div>
                     </div>
@@ -82,7 +83,7 @@ export default function LoginHeader() {
                         </div>
                     </div>
                 </div>
-                <img className="img-fluid d-flex d-lg-none" src="/imagensProjeto/elefante_bege.png" width={70} alt="logo" />
+                <Image className="img-fluid d-flex d-lg-none" src="/imagensProjeto/elefante_bege.png" width={70} height={70} alt="logo" />
             </div>
         </nav>
     );

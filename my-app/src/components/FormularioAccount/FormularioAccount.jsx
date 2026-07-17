@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 const axios = require('axios');
 import "./user.css";
 
-// const API_URL = "http://localhost:3001";
-const API_URL = "https://spicesoul-production.up.railway.app";
+const API_URL = "/api";
 
 export default function account({ action }) {
 
@@ -83,7 +83,7 @@ export default function account({ action }) {
 
                             {action == 'cadastro' ? (<>
                                 <div className="logo d-flex justify-content-center p-3 flex-column align-items-center">
-                                    <img src="/imagensProjeto/title.png" alt="" className="img-fluid w-75 " />
+                                    <Image src="/imagensProjeto/title.png" alt="" className="img-fluid w-75" width={300} height={80} />
                                     <div className="sego brown">Faça seu cadastro</div>
                                 </div>
                                 <form
@@ -113,7 +113,7 @@ export default function account({ action }) {
 
                             </>) : action == 'login' ? (<>
                                 <div className="logo d-flex justify-content-center p-3 flex-column align-items-center">
-                                    <img src="/imagensProjeto/title.png" alt="" className="img-fluid w-75 w-sm-100 " />
+                                    <Image src="/imagensProjeto/title.png" alt="" className="img-fluid w-75 w-sm-100" width={300} height={80} />
                                     <div className="sego brown">Realize seu Login aqui</div>
                                 </div>
                                 <form
@@ -141,7 +141,7 @@ export default function account({ action }) {
 
                         </div>
                         <div className="col-12 col-md-7 col-sm-6 d-none d-lg-flex justify-content-center align-items-center p-0">
-                            <img src="/imagensProjeto/pratogiratorio.png" className=" pratos-girando" alt="Pratos Girando" />
+                            <Image src="/imagensProjeto/pratogiratorio.png" className="pratos-girando" alt="Pratos Girando" width={400} height={400} />
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import './FeedbackCard.css';
 
 export default function FeedbackCard({ item }) {
@@ -5,7 +6,7 @@ export default function FeedbackCard({ item }) {
         <div className="feedbackCard d-flex justify-content-center">
             <div className="feedbackBorderWrapper mb-5">
                 <div className="feedbackImageWrapper">
-                    <img src={item.imagem} alt={item.nome} className="feedbackImage img-fluid" />
+                    <Image src={item.imagem} alt={item.nome} fill sizes="250px" className="feedbackImage" />
                 </div>
             </div>
 

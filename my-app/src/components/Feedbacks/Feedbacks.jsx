@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from 'swiper/modules';
 
@@ -49,8 +50,8 @@ export default function Feedbacks() {
     return (
         <>
             <div className="feedbacksBanner">
-                <img src="/imagensProjeto/feedbackbannermobile.png" alt="Baner Feedbacks" className='bannerMobile' />
-                <img src="/imagensProjeto/feedbackbannerpc.png" alt="Baner Feedbacks" className="bannerDesktop" />
+                <Image src="/imagensProjeto/feedbackbannermobile.png" alt="Banner Feedbacks" className='bannerMobile' width={500} height={300} />
+                <Image src="/imagensProjeto/feedbackbannerpc.png" alt="Banner Feedbacks" className="bannerDesktop" width={1200} height={400} />
             </div>
             <div className="padding">
                 <Swiper
@@ -82,7 +83,7 @@ export default function Feedbacks() {
                     ))}
                 </Swiper>
             </div>
-            <img src="/imagensProjeto/estrelasbreak.png" alt="Textura de estrelas para quebra de linha" className="img-fluid w-100 py-4" />
+            <Image src="/imagensProjeto/estrelasbreak.png" alt="Textura de estrelas para quebra de linha" className="img-fluid w-100 py-4" width={1200} height={100} />
         </>
     );
 }

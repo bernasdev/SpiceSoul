@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import './Footer.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -10,10 +11,12 @@ export default function Footer() {
     return (
         <div>
             <div className={`row ${showGradient ? 'bg-texture' : ''}`}>
-                <img
+                <Image
                     className={`img-fluid p-0 m-0 w-100 ${showGradient ? 'castelo' : ''}`}
                     src="/imagensProjeto/castle2.png"
                     alt=""
+                    width={1200}
+                    height={200}
                 />
             </div>
 
@@ -21,7 +24,7 @@ export default function Footer() {
                 <div className="row">
 
                     <div className="col-12 col-sm-4 centro-celular especiariasImg align-items-center d-none d-sm-flex">
-                        <img className="img-fluid pratos" src="/imagensProjeto/especiarias.png" alt="especiarias" />
+                        <Image className="img-fluid pratos" src="/imagensProjeto/especiarias.png" alt="especiarias" width={400} height={400} />
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
@@ -43,7 +46,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-4 centro-celular pai-elefante align-items-center d-none d-sm-flex">
-                        <img className="img-fluid elefante" src="/imagensProjeto/elefante.png" alt="elefante" />
+                        <Image className="img-fluid elefante" src="/imagensProjeto/elefante.png" alt="elefante" width={200} height={200} />
                     </div>
                 </div>
             </div>
